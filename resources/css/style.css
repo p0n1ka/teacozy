@@ -69,3 +69,16 @@ nav {
 .berryblitz, .rum, .donut, .myrtle, .bedford {
   margin: 10px 10px;
 }
+
+/* Locations */
+
+.locations {
+  display: flex;
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+}
+.locations span {
+  text-align: center;
+}
