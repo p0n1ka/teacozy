@@ -73,12 +73,34 @@ nav {
 /* Locations */
 
 .locations {
-  display: flex;
   background-image: url("../images/img-locations-background.jpg");
-  height: 500px;
+  height: 600px;
   width: 1200px;
   margin: auto;
 }
-.locations span {
+.locations_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 600px;
+  width: 1200px;
+}
+.downtown, .eastbayside, .oakdale {
+  background-color: black;
+  width: 280px;
+  height: 250px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 10px;
+}
+.eastbayside_container {
+  width: 300px;
+  height: 290px;
+  margin-bottom: 140px;
+}
+.eastbayside_container h2 {
+  text-align: center;
+  margin-bottom: 15px;
 }
