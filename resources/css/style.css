@@ -5,6 +5,9 @@ body {
   background-color: black;
   opacity: 0.9;
 }
+a {
+  color: seashell;
+}
 
 /* header */
 
@@ -80,12 +83,12 @@ nav {
 }
 .locations_container {
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: center;
   height: 600px;
   width: 1200px;
 }
-.downtown, .eastbayside, .oakdale {
+.downtown, .oakdale {
   background-color: black;
   width: 280px;
   height: 250px;
@@ -94,17 +97,29 @@ nav {
   flex-direction: column;
   justify-content: center;
   padding: 10px 10px;
+  margin: 0 20px;
 }
 .eastbayside_container {
-  width: 300px;
-  height: 290px;
-  margin-bottom: 140px;
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 400px;
+  margin-bottom: 57px;
 }
 .eastbayside_container h2 {
   text-align: center;
-  margin-bottom: 15px;
 }
-
+.eastbayside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 10px;
+  background-color: black;
+  width: 300px;
+  height: 250px;
+  text-align: center;
+  margin: 0 20px;
+}
 
 /* Footer */
 .contacts {
