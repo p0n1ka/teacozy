@@ -92,7 +92,9 @@ nav {
   height: 600px;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   display: flex;
+  min-width: 1040px;
 }
 .locations_container {
   display: flex;
